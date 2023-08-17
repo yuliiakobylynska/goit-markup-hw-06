@@ -697,6 +697,9 @@ ol {
 .modal-comment:focus {
   border-color: #4d5ae5;
 }
+.visually-hidden {
+  border: #9747ff;
+}
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: var(--ocean, #404bbf);
