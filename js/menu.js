@@ -5,8 +5,8 @@
     menu: document.querySelector("[data-menu]"),
   };
 
-  refs.openMenuBtn.addEventListener("click", toggleMenu);
-  refs.closeMenuBtn.addEventListener("click", toggleMenu);
+  refs.openMenuBtn.addEventListener("click", togglemenu);
+  refs.closeMenuBtn.addEventListener("click", togglemenu);
 
   function togglemenu() {
     refs.menu.classList.toggle("is-hidden");
